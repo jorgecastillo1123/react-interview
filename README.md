@@ -24,15 +24,24 @@ https://pokeapi.co/api/v2/pokemon/{searchValue}
     onChange -> returns the input value
 
 2 - Create an Image/Data Component that takes the following props
+
     - imageUrl
+
     - name
+
     - abilities 
+    
 
 3 - Compose the final UI using the previously created components
-    - Create API calls
+
+    - UseFetch to create API calls
+
     - Use search input value to query API
+
     - pass API results to the Image/Data Component
+
     - Loop over the abilities array and create comma separated string using {ability.name}
+
 
 Extra: 
     handle loading and empty states
