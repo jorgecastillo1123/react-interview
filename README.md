@@ -30,7 +30,7 @@ https://pokeapi.co/api/v2/pokemon/{searchValue}
     - name
 
     - abilities 
-    
+
 
 3 - Compose the final UI using the previously created components
 
@@ -43,6 +43,8 @@ https://pokeapi.co/api/v2/pokemon/{searchValue}
     - Loop over the abilities array and create comma separated string using {ability.name}
 
 
-Extra: 
+Extra:
+
     handle loading and empty states
+
     Create React Context to manage API calls and states
