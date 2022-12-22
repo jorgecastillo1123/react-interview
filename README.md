@@ -20,25 +20,16 @@ You may also see any lint errors in the console.
 API 
 https://pokeapi.co/api/v2/pokemon/{searchValue}
 
-1 - Create a reusable search component with the following props
+1 - Create React Context to manage API calls and states
+
+2 - Create a reusable search component with the following props
     onChange -> returns the input value
 
-2 - Create an Image/Data Component that takes the following props
-
-    - imageUrl
-
-    - name
-
-    - abilities 
-
-
-3 - Compose the final UI using the previously created components
+3 - Compose the final UI using the previously created search component
 
     - UseFetch to create API calls
 
     - Use search input value to query API
-
-    - pass API results to the Image/Data Component
 
     - Loop over the abilities array and create comma separated string using {ability.name}
 
@@ -46,5 +37,3 @@ https://pokeapi.co/api/v2/pokemon/{searchValue}
 Extra:
 
     handle loading and empty states
-
-    Create React Context to manage API calls and states
